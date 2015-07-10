@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script>
+$(document).ready(function () {
+$("#but1").click(function () {
+$("[href]").hide();
+});
+$("#but2").click(function () {
+$("[href]").show();
+});
+});
+
+</script> 
+</head> 
+<body>  
+ 
+<p><a href="http://vk.com">Сайт "Вконтакте"</a></p>
+<p><a href="http://ok.ru">Cайт "Одноклассники"</a></p>
+<p>Сайт "Facebook"</p>
+<p>Сайт "Twitter"</p>
+
+<br>
+<br>
+<button id="but1">Скрыть элементы c атрибутом href</button>
+<button id="but2">Показать элементы c атрибутом href</button>
+
+</body> 
+</html>
