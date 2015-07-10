@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script>
+
+$(document).ready(function () {
+$("#but1").click(function () {
+$("[align*='center']").hide();
+});
+$("#but2").click(function () {
+$("[align*='center']").show();
+});
+});
+
+</script> 
+</head> 
+<body>  
+ 
+<table >
+<tr align ="center"><td>Практика 1 курс</td></tr>
+<tr><td>Лабораторная работа №6</td></tr>
+<tr align ="center"><td>Индивидуальное задание 1_4</td></tr>
+<tr><td>Работу выполнила Зыкова Ирина. Группа БИ-11</td></tr>
+</table>
+
+<br>
+<br>
+<button id="but1">Скрыть элементы, выравненные посередине</button>
+<button id="but2">Показать элементы, выравненные посередине</button>
+
+</body> 
+</html>
