@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(document).ready(function () {
+$("button").click(function () {
+var i=1;
+do{
+$(".p2").fadeToggle();
+i++;
+if(i%2==0){
+$(".p1").fadeToggle();}
+}
+while(i<1000)
+$(".p1").hide();
+});
+});
+</script>
+</head>
+<body>
+<p class="p1"style="display:none">Мечты и слезы,</p>
+<p class="p2" style="display:none">Цветы и грезы</p>
+<p class="p1"style="display:none">Тебе дарю.</p>
+<p class="p2" style="display:none">От тихой ласки</p>
+<p class="p1"style="display:none">И нежной сказки</p>
+<p class="p2" style="display:none">Я весь горю.</p>
+<p class="p1"style="display:none">А сколько муки</p>
+<p class="p2" style="display:none">Святые звуки</p>
+<p class="p1"style="display:none">Наносят мне!</p>
+<p class="p2" style="display:none">Но силой тертой</p>
+<p class="p1"style="display:none">Пошлю все к черту.</p>
+<p class="p2" style="display:none">Иди ко мне</p>
+</body>
+<br><br><button>Click me</button>
+</html>
