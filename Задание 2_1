@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+
+$(document).ready(function () {
+$("#tr1").mouseenter(function () {
+$(this).hide();
+});
+});
+
+</script> 
+</head> 
+<body>  
+<p  id="p1"> ЦВЕТЫ</p>
+<table>
+<tr id="tr1">
+<td><img src="http://kayrosblog.ru/wp-content/uploads/2009/04/YAzy-k-tsvetov-uchimsya-delat-podarki-3.jpg" width="200" height="150"></td>
+
+<tr><td>Пионы</td></tr>
+<tr><td>Ромашки</td></tr>
+<tr><td>Тюльпаны</td></tr>
+</table>
+</body>
+</html>
