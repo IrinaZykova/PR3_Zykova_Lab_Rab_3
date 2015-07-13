@@ -29,3 +29,10 @@ $("#div2").fadeIn();
 </script>
 </head>
 <body>
+<div id="div1" style="width:80px;height:80px;display:none;background-color:orange;"></div>
+<div id="div2"
+style="width:80px;height:80px;display:none;background-color:lime;"></div>
+<button id="btn1">Появление и исчезновение</button>
+<button id="btn2">Показать</button>
+</body>
+</html>
