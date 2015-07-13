@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () {
+$("button").click(function () {
+$('#div1').delay(50).animate({left: '40px' });
+$('#div2').text('Все тихо - полная луна...');
+$('#div3').delay(50).animate({left: '40px' });
+$('#div4').text('Ливень стучал тяжело');
+$('#div5').delay(50).animate({left: '40px' });
+$('#div6').text('Им любовались мы долго,');
+});
+});
+</script>
+</head>
+<body>
+<button>Извлечь и присвоить</button>
+<div id="div1" style="width:180px;height:20px;position:absolute">Все тихо - полная луна...</div>
+<br><br><br>
+<div id="div2" style="width:180px;height:20px;position:absolute">Всё тихо - полная луна</div>
+<br><br><br>
+<div id="div3" style="width:180px;height:20px;position:absolute;">Блестит меж вётел над прудом,</div>
+<br><br><br>
+<div id="div4" style="width:180px;height:20px;position:absolute">И возле берега волна</div>
+<br><br><br>
+<div id="div5" style="width:180px;height:20px;position:absolute;">С холодным</div>
+<br><br><br>
+<div id="div6" style="width:180px;height:20px;position:absolute;">Резвится лучом.</div>
+
+</body>
+</html>
